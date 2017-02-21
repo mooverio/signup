@@ -26,7 +26,7 @@ p {
 
 .description {
 	text-align: center;
-	width: 640px;
+	width: 320px;
 }
 
 h1.description {
@@ -55,7 +55,7 @@ p.description {
 
 .signup input {
 	height: 50px;
-	width: 640px;
+	width: 320px;
 	color:#A1ABB2;
 	padding: 20px;
 	font-size: 18px;
@@ -69,7 +69,7 @@ p.description {
 
 .signup button {
 	height: 50px;
-	width: 640px;
+	width: 320px;
 	-webkit-appearance: none;
 	-moz-appearance: none;
 	appearance: none;
