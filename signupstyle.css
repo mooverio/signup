@@ -1,5 +1,6 @@
 body {
 	position: relative;
+	font-family: 'Roboto', serif;
 }
 
 h1 {
@@ -12,7 +13,6 @@ p {
 
 .logo {
 	color: #3498DB;
-	font-weight: bold;
 	font-size: 96px;
 	text-align: center;
 }
@@ -20,12 +20,13 @@ p {
 .content {
 	position: absolute;
 	top: 50%;
-	left:50%;
+	left: 50%;
 	transform: translate(-50%, -50%);
 }
 
 .description {
 	text-align: center;
+	width: 640px;
 }
 
 h1.description {
@@ -37,5 +38,43 @@ p.description {
 }
 
 .signup {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
 	text-align: center;
+}
+
+.signup p {
+	margin: 15px;
+	font-size: 22px;
+}
+
+.signup form {
+	padding: 20px;
+}
+
+.signup input {
+	height: 50px;
+	width: 640px;
+	color:#A1ABB2;
+	padding: 20px;
+	font-size: 18px;
+	border: none;
+}
+
+.signup input:focus {
+	background-color: #A1ABB2;
+	color:#000;
+}
+
+.signup button {
+	height: 50px;
+	width: 640px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background-color: #2ECC71;
+	color: #FFF;
+	font-size: 22px;
+	border: none;
 }
