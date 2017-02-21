@@ -1,0 +1,26 @@
+body {
+	position: relative;
+}
+
+h1 {
+	font-family: 'Roboto', serif;
+}
+
+p {
+	font-family: 'Roboto', serif;
+}
+
+.content {
+	position: absolute;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+}
+
+h1.description {
+	font-size: 48px
+}
+
+p.description {
+	font-size: 24px;
+}
