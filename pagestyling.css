@@ -1,10 +1,10 @@
 body {
 	position: relative;
 	font-family: 'Roboto', serif;
-	background-image: url("https://instagram.fosl1-1.fna.fbcdn.net/t51.2885-15/e35/14135028_1831205397165669_552061141_n.jpg");
-	background-size: 100%;
+	background-image: url("./background.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+	background-position: center;
 }
 
 h1 {
