@@ -1,0 +1,93 @@
+body {
+	position: relative;
+	font-family: 'Roboto', serif;
+	background-image: url("https://instagram.fosl1-1.fna.fbcdn.net/t51.2885-15/e35/14135028_1831205397165669_552061141_n.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+h1 {
+	font-family: 'Roboto', serif;
+	color: white;
+}
+
+h2 {
+	font-family: 'Roboto', serif;
+	color: white;
+}
+
+p {
+	font-family: 'Roboto', serif;
+	color: white;
+}
+
+#container {
+   min-height:100%;
+   position:relative;
+}
+
+.navbar {
+
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+	width: 100%;
+	min-width: 400px;
+}
+
+.navbar li {
+    float: right;
+}
+
+.navbar li a {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.navbar li a:hover {
+	text-decoration: underline;
+}
+
+#logo {
+	color: #3498DB;
+	font-size: 96px;
+	text-align: center;
+}
+
+#content {
+	margin: 0 auto;
+	width: 60%;
+	padding-bottom: 35px;
+	text-align: center;
+}
+
+#content h1 {
+	font-size: 48px;
+}
+
+#content h2 {
+	font-size: 36px;
+}
+
+#content p {
+	font-size: 24px;
+}
+
+#footer {
+	width: 100%;
+	height: 35px;
+	position: absolute;
+	bottom: 0;
+}
+
+#footer p {
+	color: black;
+	text-align: center;
+}
