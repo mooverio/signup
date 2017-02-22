@@ -1,14 +1,20 @@
 body {
 	position: relative;
 	font-family: 'Roboto', serif;
+	background-image: url("https://instagram.fosl1-1.fna.fbcdn.net/t51.2885-15/e35/14135028_1831205397165669_552061141_n.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 
 h1 {
 	font-family: 'Roboto', serif;
+	color: white;
 }
 
 p {
 	font-family: 'Roboto', serif;
+	color: white;
 }
 
 .logo {
@@ -77,4 +83,24 @@ p.description {
 	color: #FFF;
 	font-size: 22px;
 	border: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+	width: 100%;
+	min-width: 400px;
+}
+
+li {
+    float: right;
+	color: black;
+}
+
+li a {
+    display: block;
+    padding: 20px;
+    background-color: #ffffff;
 }
