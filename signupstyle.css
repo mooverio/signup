@@ -18,22 +18,19 @@ p {
 }
 
 .content {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+	margin: 0 auto;
+	width: 60%;
 }
 
 .description {
 	text-align: center;
-	width: 320px;
 }
 
-h1.description {
+.description h1 {
 	font-size: 48px
 }
 
-p.description {
+.description p {
 	font-size: 24px;
 }
 
