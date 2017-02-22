@@ -17,6 +17,11 @@ p {
 	color: white;
 }
 
+#container {
+   min-height:100%;
+   position:relative;
+}
+
 .logo {
 	color: #3498DB;
 	font-size: 96px;
@@ -47,9 +52,10 @@ p {
     color: white;
 }
 
-.content {
+#content {
 	margin: 0 auto;
 	width: 60%;
+	padding-bottom: 35px;
 }
 
 .description {
@@ -104,4 +110,16 @@ p {
 	color: #FFF;
 	font-size: 22px;
 	border: none;
+}
+
+#footer {
+	width: 100%;
+	height: 35px;
+	position: absolute;
+	bottom: 0;
+}
+
+#footer p {
+	color: black;
+	text-align: center;
 }
