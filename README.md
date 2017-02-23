@@ -1,2 +1,2 @@
 # signup
-Moover MVP RWD page.
+Moover MVP page.
